@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+  color: #000000;
+}
+
+body.modo-oscuro {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 200px;
+  font-size: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.form-group button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.homenaje {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.homenaje p {
+  font-size: 14px;
+}
+
+.toggle-modo-oscuro {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-modo-oscuro:hover {
+  background-color: #45a049;
+}
+
+.modo-oscuro .toggle-modo-oscuro {
+  background-color: #555555;
+}
